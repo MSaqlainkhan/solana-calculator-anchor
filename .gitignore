@@ -1,13 +1,19 @@
-# Rust / Cargo
+# Rust / Anchor / Solana
 target/
-**/*.rs.bk
-Cargo.lock   # optional — many keep it, but Anchor projects often ignore it
-
-# Anchor / Solana
-**/.anchor/
-**/Anchor.toml.bak
+.anchor/
 **/*.keypair.json
-**/*.so   # compiled program — don't upload binaries
+**/*.so
+test-ledger/
+
+# Node / Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+node_modules/
 
 # Misc
 .DS_Store
