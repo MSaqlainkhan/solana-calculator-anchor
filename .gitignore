@@ -1,0 +1,15 @@
+# Rust / Cargo
+target/
+**/*.rs.bk
+Cargo.lock   # optional — many keep it, but Anchor projects often ignore it
+
+# Anchor / Solana
+**/.anchor/
+**/Anchor.toml.bak
+**/*.keypair.json
+**/*.so   # compiled program — don't upload binaries
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
